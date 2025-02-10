@@ -1,0 +1,21 @@
+.BarreDeNavigation {
+    background-color: #4e2a6e;
+    padding: 10px;
+}
+
+.BarreDeNavigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BarreDeNavigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.BarreDeNavigation a:hover {
+    color: #ddd;
+}
