@@ -6,17 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          h1. Hello, World! This is a test of the game-site.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1> Welcome to Escape The Labyrinth</h1>
+        <p> Get ready for an exciting adventure through a mysterious maze! </p>
       </header>
     </div>
   );
