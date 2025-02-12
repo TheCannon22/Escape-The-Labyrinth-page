@@ -23,7 +23,7 @@ function APropos() {
                         <li>Utilise Blueprints et Unreal Engine pour certaines mécaniques</li>
                         <li>Expérience immersive avec des graphismes et une ambiance sonore soignée</li>
                         <li>Puzzles interactifs et niveaux de difficulté progressive</li>
-                        <li>Projet de fin d’études mettant en valeur tes compétences en programmation de jeux</li>
+                        <li>Projet de fin d’études mettant en valeur mes compétences en programmation de jeux</li>
                     </ul>
                 </div>
             </section>
