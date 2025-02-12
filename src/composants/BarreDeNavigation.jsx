@@ -6,9 +6,9 @@ function BarreDeNavigation() {
     return (
         <nav className='BarreDeNavigation'>
             <ul>
-                <li><a href="/"> Accueil </a></li>
-                <li><a href="/APropos"> À propos </a></li>
-                <li><a href="/jouer"> Jouer </a></li>
+                <li><Link to="/"> Accueil </Link> </li>
+                <li><Link to="/APropos"> À propos </Link> </li>
+                <li><Link to="/jouer"> Jouer </Link> </li>
             </ul>
         </nav>
     );

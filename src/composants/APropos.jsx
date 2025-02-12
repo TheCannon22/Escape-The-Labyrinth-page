@@ -6,7 +6,6 @@ import PiedDePage from './PiedDePage';
 function APropos() {
     return (
         <div className='APropos'>
-            <BarreDeNavigation />
             <section className="contenu">
                 <h1>À propos de "Escape The Labyrinth"</h1>
                 <p>
@@ -16,8 +15,18 @@ function APropos() {
                 <p>
                     Développé avec passion, ce jeu offre une atmosphère immersive et une expérience de jeu captivante. Oserez-vous relever le défi ?
                 </p>
+
+                <div className="details">
+                    <h2>Caractéristiques du jeu</h2>
+                    <ul>
+                        <li>Développé avec Unreal Engine, les Blueprints et C++</li>
+                        <li>Utilise Blueprints et Unreal Engine pour certaines mécaniques</li>
+                        <li>Expérience immersive avec des graphismes et une ambiance sonore soignée</li>
+                        <li>Puzzles interactifs et niveaux de difficulté progressive</li>
+                        <li>Projet de fin d’études mettant en valeur tes compétences en programmation de jeux</li>
+                    </ul>
+                </div>
             </section>
-            <PiedDePage />
         </div>
     );
 }
