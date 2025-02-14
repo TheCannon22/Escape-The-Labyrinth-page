@@ -48,6 +48,19 @@
     margin-bottom: 8px;
 }
 
+.trailer-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.trailer-container iframe {
+    width: 100%;
+    height: 45vw; /* Responsive height */
+    max-height: 450px;
+}
+
 /* Tablet view */
 @media (min-width: 600px) {
     .APropos h1 {

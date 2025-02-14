@@ -7,14 +7,18 @@ function APropos() {
     return (
         <div className='APropos'>
             <section className="contenu">
-                <h1>À propos de "Escape The Labyrinth"</h1>
-                <p>
-                    "Escape The Labyrinth" est un jeu d'aventure où les joueurs doivent naviguer dans un labyrinthe rempli d'énigmes et de pièges.
-                    Le jeu met à l'épreuve votre capacité à résoudre des casse-têtes et à trouver la sortie avant qu'il ne soit trop tard.
-                </p>
-                <p>
-                    Développé avec passion, ce jeu offre une atmosphère immersive et une expérience de jeu captivante. Oserez-vous relever le défi ?
-                </p>
+                <h1>Échapper au labyrinthe</h1>
+                <p className="sous-titre">Un défi d'énigmes et de survie dans un labyrinthe mystérieux</p>
+
+                <div className="trailer-container">
+                    <iframe
+                        width="800"
+                        height="450"
+                        src="https://www.youtube.com/embed/TON_LIEN_DE_TRAILER"
+                        title="Escape The Labyrinth - Trailer"
+                        allowFullScreen
+                    ></iframe>
+                </div>
 
                 <div className="details">
                     <h2>Caractéristiques du jeu</h2>
@@ -25,6 +29,15 @@ function APropos() {
                         <li>Puzzles interactifs et niveaux de difficulté progressive</li>
                         <li>Projet de fin d’études mettant en valeur mes compétences en programmation de jeux</li>
                     </ul>
+                </div>
+
+                <div className="galerie">
+                    <h2>Captures d’écran</h2>
+                    <div className="images">
+                        <img src="/images/screenshot1.jpg" alt="Capture d’écran du jeu 1" />
+                        <img src="/images/screenshot2.jpg" alt="Capture d’écran du jeu 2" />
+                        <img src="/images/screenshot3.jpg" alt="Capture d’écran du jeu 3" />
+                    </div>
                 </div>
             </section>
         </div>
