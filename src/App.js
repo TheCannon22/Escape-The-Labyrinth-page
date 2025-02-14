@@ -4,6 +4,7 @@ import BarreDeNavigation from './composants/BarreDeNavigation';
 import DescriptionDuJeu from './composants/DescriptionDuJeu';
 import PiedDePage from './composants/PiedDePage';
 import APropos from './composants/APropos';
+import banniere from './assets/banniere.jpg';
 
 function App() {
   return (
@@ -14,14 +15,17 @@ function App() {
           <Route path="/" element={
             <>
               <header className="App-header">
-                <h1>Welcome to Escape The Labyrinth</h1>
-                <p>Get ready for an exciting adventure through a mysterious maze!</p>
+                <img src={banniere} alt="Escape The Labyrinth" className="banniere" />
+                <div className="header-content">
+                  <h1>Escape The Labyrinth</h1>
+                  <p>Un jeu palpitant où chaque tournant du labyrinthe réserve des surprises et des défis !</p>
+                </div>
               </header>
-              <DescriptionDuJeu />
+              {/* <DescriptionDuJeu /> */}
             </>
           } />
           <Route path="/APropos" element={<APropos />} />
-          <Route path="/jouer"/>
+          <Route path="/jouer" />
         </Routes>
         <PiedDePage />
       </div>

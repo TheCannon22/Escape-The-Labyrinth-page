@@ -16,7 +16,7 @@ function PiedDePage() {
                     <i className='fab fa-instagram'></i>
                 </a>
             </div>
-            <p>&copy; 2025 Escape The Labyrinth | Tous droits réservés</p>
+            <p>&copy; 2025 Escape The Labyrinth | Tous droits réservés à Alexander Rankov</p>
         </div>
     );
 }
