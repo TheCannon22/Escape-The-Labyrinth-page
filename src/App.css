@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-Logo {
+  height: 300px;
+  margin-right: 20px;
+}
+
+header .App-Logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -50,9 +55,11 @@
   .banniere {
     max-height: 400px;
   }
+
   .header-content h1 {
     font-size: 3rem;
   }
+
   .header-content p {
     font-size: 1.5rem;
   }
