@@ -3,6 +3,7 @@
     padding: 20px;
     text-align: center;
     background-color: white;
+    min-height: 200vh;
     color: #333;
 }
 
@@ -57,7 +58,8 @@
 
 .trailer-container iframe {
     width: 100%;
-    height: 45vw; /* Responsive height */
+    height: 45vw;
+    /* Responsive height */
     max-height: 450px;
 }
 
@@ -102,7 +104,7 @@
     .equipe h2 {
         font-size: 1.8rem;
     }
-    
+
     .equipe .membre h3 {
         font-size: 1.6rem;
     }
@@ -113,23 +115,28 @@
     .equipe h2 {
         font-size: 2rem;
     }
-    
+
     .equipe .membre h3 {
         font-size: 1.8rem;
     }
 }
+
 /* Tablet view */
 @media (min-width: 600px) {
     .APropos h1 {
         font-size: 2rem;
     }
-    
+
     .APropos p {
         font-size: 1.2rem;
     }
-    
+
     .APropos .details h2 {
         font-size: 1.8rem;
+    }
+
+    .APropos {
+        min-height: 170vh;
     }
 }
 
@@ -138,17 +145,17 @@
     .APropos {
         padding: 40px;
     }
-    
+
     .APropos h1 {
         font-size: 2.4rem;
     }
-    
+
     .APropos p {
         font-size: 1.3rem;
         max-width: 700px;
         margin: auto;
     }
-    
+
     .APropos .details {
         padding: 20px;
     }
