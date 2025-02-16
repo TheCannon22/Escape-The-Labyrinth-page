@@ -1,7 +1,5 @@
 import React from 'react';
 import './APropos.css';
-import BarreDeNavigation from './BarreDeNavigation';
-import PiedDePage from './PiedDePage';
 
 function APropos() {
     return (
@@ -18,6 +16,15 @@ function APropos() {
                         title="Escape The Labyrinth - Trailer"
                         allowFullScreen
                     ></iframe>
+                </div>
+
+                <div className="equipe">
+                    <h2>Équipe</h2>
+                    <div className="membre">
+                        <h3>Alexander Rankov</h3>
+                        <p>Développeur principal et créateur du projet "Escape The Labyrinth". Passionné par la programmation de jeux vidéo, Alexander a utilisé Unreal Engine, Blueprints et C++ pour créer ce jeu. Il aime concevoir des expériences immersives et des énigmes captivantes.</p>
+                        <p>Contactez-le à : <a href="">alexander.rankov@email.com</a></p>
+                    </div>
                 </div>
 
                 <div className="details">

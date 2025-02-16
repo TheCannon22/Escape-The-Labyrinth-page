@@ -61,6 +61,63 @@
     max-height: 450px;
 }
 
+/* Nouvelle section pour l'équipe */
+.equipe {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.equipe h2 {
+    font-size: 1.6rem;
+    color: #4e2a6e;
+    margin-bottom: 15px;
+}
+
+.equipe .membre {
+    margin-bottom: 20px;
+}
+
+.equipe .membre h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.equipe .membre p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.equipe .membre a {
+    color: #4e2a6e;
+    text-decoration: none;
+}
+
+.equipe .membre a:hover {
+    text-decoration: underline;
+}
+
+/* Vue tablette */
+@media (min-width: 600px) {
+    .equipe h2 {
+        font-size: 1.8rem;
+    }
+    
+    .equipe .membre h3 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Vue bureau */
+@media (min-width: 1024px) {
+    .equipe h2 {
+        font-size: 2rem;
+    }
+    
+    .equipe .membre h3 {
+        font-size: 1.8rem;
+    }
+}
 /* Tablet view */
 @media (min-width: 600px) {
     .APropos h1 {
