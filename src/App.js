@@ -3,6 +3,7 @@ import './App.css';
 import BarreDeNavigation from './composants/BarreDeNavigation';
 import PiedDePage from './composants/PiedDePage';
 import APropos from './composants/APropos';
+import Jouer from './composants/Jouer';
 import banniere from './assets/banniere.jpg';
 import logo from './assets/EscapeTheLabyrinth-Logo.png';
 
@@ -25,7 +26,7 @@ function App() {
             </>
           } />
           <Route path="/APropos" element={<APropos />} />
-          <Route path="/jouer" />
+          <Route path="/jouer" element={<Jouer />} />
         </Routes>
         <PiedDePage />
       </div>
