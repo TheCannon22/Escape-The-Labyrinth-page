@@ -1,10 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './APropos.css';
 
 function APropos() {
+    const [inView, setInView] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const content = document.querySelector('.contenu');
+            const contentTop = content.getBoundingClientRect().top;
+            const contentHeight = content.offsetHeight;
+
+            if (contentTop + contentHeight > window.innerHeight) {
+                setInView(true);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Check on initial load
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className='APropos'>
-            <section className="contenu">
+            <section className={`contenu ${inView ? 'in-view' : ''}`}>
                 <h1>Échapper au labyrinthe</h1>
                 <p className="sous-titre">Un défi d'énigmes et de survie dans un labyrinthe mystérieux</p>
 
