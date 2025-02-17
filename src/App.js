@@ -5,7 +5,7 @@ import BarreDeNavigation from './composants/BarreDeNavigation';
 import PiedDePage from './composants/PiedDePage';
 import APropos from './composants/APropos';
 import Jouer from './composants/Jouer';
-import banniere from './assets/banniere.jpg';
+import banniere from './assets/banniere.png';
 import logo from './assets/EscapeTheLabyrinth-Logo.png';
 
 function App() {
