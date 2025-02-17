@@ -3,13 +3,13 @@
 }
 
 .App-Logo {
-  height: 300px;
+  height: 250px;
   margin-right: 20px;
 }
 
 header .App-Logo {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,12 +20,12 @@ header .App-Logo {
 
 .App-header {
   background-color: #4e2a6e;
-  min-height: 100vh;
+  min-height: 180vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 20px;
+  padding: 20px;
 }
 
 .banniere {
@@ -48,12 +48,22 @@ header .App-Logo {
 }
 
 .header-content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.header-info {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #fff;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 0 15px;
 }
 
 @media (min-width: 768px) {
-  .banniere {
-    max-height: 400px;
+  .App-Logo {
+    height: 300px;
   }
 
   .header-content h1 {
@@ -61,7 +71,32 @@ header .App-Logo {
   }
 
   .header-content p {
+    font-size: 1.2rem;
+  }
+
+  .header-info {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+
+  .App-header{
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .App-header {
+    padding: 40px;
+  }
+
+  .header-content h1 {
+    font-size: 4rem;
+  }
+
+  .header-info {
     font-size: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
   }
 }
 
@@ -77,19 +112,19 @@ header .App-Logo {
 body {
   background-color: black;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
