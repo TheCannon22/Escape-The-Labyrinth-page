@@ -1,9 +1,18 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
 .App-Logo {
-  height: 250px;
+  height: 150px;
   margin-right: 20px;
 }
 
@@ -20,7 +29,7 @@ header .App-Logo {
 
 .App-header {
   background-color: #4e2a6e;
-  min-height: 190vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +39,7 @@ header .App-Logo {
 
 .banniere {
   width: 100%;
-  max-height: 640px;
+  max-height: 320px;
   object-fit: cover;
   border-bottom: 4px solid white;
 }
@@ -38,7 +47,6 @@ header .App-Logo {
 .header-content {
   color: white;
   margin-top: 20px;
-  text-align: center;
   padding: 0 15px;
 }
 
@@ -63,11 +71,11 @@ header .App-Logo {
 
 @media (min-width: 768px) {
   .App-Logo {
-    height: 300px;
+    height: 200px;
   }
 
   .header-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .header-content p {
@@ -79,18 +87,22 @@ header .App-Logo {
     margin-top: 30px;
   }
 
-  .App-header{
-    min-height: 200vh;
+  .App-header {
+    min-height: 150vh;
   }
 }
 
 @media (min-width: 1024px) {
+  .App-Logo {
+    height: 250px;
+  }
+
   .App-header {
     padding: 40px;
   }
 
   .header-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .header-info {
@@ -107,16 +119,6 @@ header .App-Logo {
 
 .App-link {
   color: #61dafb;
-}
-
-body {
-  background-color: black;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  box-sizing: border-box;
 }
 
 @keyframes App-logo-spin {

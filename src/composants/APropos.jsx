@@ -43,19 +43,17 @@ function APropos() {
                     <h2>Équipe</h2>
                     <div className="membre">
                         <h3>Alexander Rankov</h3>
-                        <p>Développeur principal et créateur du projet "Escape The Labyrinth". Passionné par la programmation de jeux vidéo, Alexander a utilisé Unreal Engine, Blueprints et C++ pour créer ce jeu. Il aime concevoir des expériences immersives et des énigmes captivantes.</p>
-                        <p>Contactez-le à : <a href="">alexanderrankov@gmail.com</a></p>
+                        <p>Développeur principal et créateur du projet « Échapper au labyrinthe » ("Escape The Labyrinth" en anglais). Passionné par la programmation de jeux vidéo, j'ai utilisé Unreal Engine, les Blueprints et un peu de C++ pour créer ce jeu. J'adore concevoir des expériences immersives et des énigmes captivantes.</p>
+                        <p>Contactez-moi à : <a href="">alexanderrankov@gmail.com</a></p>
                     </div>
                 </div>
 
                 <div className="details">
                     <h2>Caractéristiques du jeu</h2>
                     <ul>
-                        <li>Développé avec Unreal Engine, les Blueprints et C++</li>
-                        <li>Utilise Blueprints et Unreal Engine pour certaines mécaniques</li>
+                        <li>Développé avec Unreal Engine, les Blueprints et un peu de C++</li>
                         <li>Expérience immersive avec des graphismes et une ambiance sonore soignée</li>
-                        <li>Puzzles interactifs et niveaux de difficulté progressive</li>
-                        <li>Projet de fin d’études mettant en valeur mes compétences en programmation de jeux</li>
+                        <li>Projet de fin d’études mettant en valeur mes compétences en programmation de jeux, mes compétences en design et mes compétences en intégration</li>
                     </ul>
                 </div>
 

@@ -51,12 +51,24 @@ function App() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1, duration: 1 }}
                   >
-                    <p>Créé par Alexander Rankov, Escape The Labyrinth est un jeu d'aventure immersif...</p>
+                    <p>Créé par Alexander Rankov, Escape The Labyrinth est un jeu d'aventure et d'exploration immersif</p>
                     <p>Le concept du jeu était né lors de mon cours « Méthodes de recherche et préparation au marché du travail ». On devait choisir une nouvelle technologie dont on n'avait jamais utilisé, puis j'ai décidé d'utiliser Unreal Engine et créer un labyrinthe</p>
-                    <p>Pourquoi un labyrinthe ? Parce que chaque joueur aime se perdre pour mieux se retrouver...</p>
+                    <p>Pourquoi un labyrinthe ? Parce que chaque joueur aime se perdre pour mieux se retrouver et je n'avais jamais fait un jeu avec un labyrinthe.</p>
                     <p>Le but est simple : s'échapper du labyrinthe en survivant les différents obstacles dans le jeu</p>
                     <p>Créé avec React et les dernières pratiques en développement web...</p>
                     <p>Je vous invite à plonger dans cet univers...</p>
+                    <h2>Caractéristiques du Jeu</h2>
+                    <h2>Comment Jouer</h2>
+                    <p>Utilisez les touches fléchées pour vous déplacer dans le labyrinthe. Évitez les obstacles et trouvez la sortie pour gagner !</p>
+                    <h2>Contact</h2>
+                    <p>Pour toute question ou suggestion, veuillez nous contacter à <a href="mailto:support@escapethelabyrinth.com">support@escapethelabyrinth.com</a>.</p>
+                    <h2>FAQ</h2>
+                    <p><strong>Q: Combien de niveaux y a-t-il dans le jeu ?</strong></p>
+                    <p>R: Le jeu comporte actuellement 10 niveaux, chacun avec une difficulté croissante.</p>
+                    <p><strong>Q: Puis-je jouer au jeu sur mon téléphone ?</strong></p>
+                    <p>R: Oui, le jeu est compatible avec les appareils mobiles et les tablettes.</p>
+                    <p><strong>Q: Y a-t-il des achats intégrés dans le jeu ?</strong></p>
+                    <p>R: Non, le jeu est entièrement gratuit sans achats intégrés.</p>
                   </motion.div>
                 </motion.div>
               </motion.header>
