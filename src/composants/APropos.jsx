@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './APropos.css';
+import obstacle1 from '../assets/Obstacles1.png'
+import obstacle2 from '../assets/Obstacles2.png';
+import obstacle3 from '../assets/Obstacles3.png';
 
 function APropos() {
     const [inView, setInView] = useState(false);
@@ -60,9 +63,9 @@ function APropos() {
                 <div className="galerie">
                     <h2>Captures d’écran</h2>
                     <div className="images">
-                        <img src="/images/screenshot1.jpg" alt="Capture d’écran du jeu 1" />
-                        <img src="/images/screenshot2.jpg" alt="Capture d’écran du jeu 2" />
-                        <img src="/images/screenshot3.jpg" alt="Capture d’écran du jeu 3" />
+                        <img src={obstacle1} alt="Capture d’écran du jeu 1" />
+                        <img src={obstacle2} alt="Capture d’écran du jeu 2" />
+                        <img src={obstacle3} alt="Capture d’écran du jeu 3" />
                     </div>
                 </div>
             </section>
