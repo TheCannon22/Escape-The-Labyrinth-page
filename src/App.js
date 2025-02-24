@@ -52,9 +52,9 @@ function App() {
                     transition={{ delay: 1, duration: 1 }}
                   >
                     <p>Créé par Alexander Rankov, Escape The Labyrinth est un jeu d'aventure immersif...</p>
-                    <p>Le concept du jeu est né lors de longues nuits de réflexion...</p>
+                    <p>Le concept du jeu était né lors de mon cours « Méthodes de recherche et préparation au marché du travail ». On devait choisir une nouvelle technologie dont on n'avait jamais utilisé, puis j'ai décidé d'utiliser Unreal Engine et créer un labyrinthe</p>
                     <p>Pourquoi un labyrinthe ? Parce que chaque joueur aime se perdre pour mieux se retrouver...</p>
-                    <p>Le but est simple : s'échapper du labyrinthe en résolvant des énigmes...</p>
+                    <p>Le but est simple : s'échapper du labyrinthe en survivant les différents obstacles dans le jeu</p>
                     <p>Créé avec React et les dernières pratiques en développement web...</p>
                     <p>Je vous invite à plonger dans cet univers...</p>
                   </motion.div>

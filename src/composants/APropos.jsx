@@ -44,7 +44,7 @@ function APropos() {
                     <div className="membre">
                         <h3>Alexander Rankov</h3>
                         <p>Développeur principal et créateur du projet "Escape The Labyrinth". Passionné par la programmation de jeux vidéo, Alexander a utilisé Unreal Engine, Blueprints et C++ pour créer ce jeu. Il aime concevoir des expériences immersives et des énigmes captivantes.</p>
-                        <p>Contactez-le à : <a href="">alexander.rankov@email.com</a></p>
+                        <p>Contactez-le à : <a href="">alexanderrankov@gmail.com</a></p>
                     </div>
                 </div>
 
