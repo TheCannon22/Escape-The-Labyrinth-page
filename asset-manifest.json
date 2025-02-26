@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Escape-The-Labyrinth-page/static/css/main.0dc39ec1.css",
+    "main.js": "/Escape-The-Labyrinth-page/static/js/main.bdf0929b.js",
+    "static/js/488.3e7a3f14.chunk.js": "/Escape-The-Labyrinth-page/static/js/488.3e7a3f14.chunk.js",
+    "static/media/Obstacles1.png": "/Escape-The-Labyrinth-page/static/media/Obstacles1.7cda895b6967d10f32a9.png",
+    "static/media/Obstacles3.png": "/Escape-The-Labyrinth-page/static/media/Obstacles3.15d0c5c8ec3703cf8088.png",
+    "static/media/Obstacles2.png": "/Escape-The-Labyrinth-page/static/media/Obstacles2.1423e22d5d493e7c3c8f.png",
+    "static/media/banniere.png": "/Escape-The-Labyrinth-page/static/media/banniere.ccfd85696b1a3d1478be.png",
+    "static/media/fa-solid-900.ttf": "/Escape-The-Labyrinth-page/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/Escape-The-Labyrinth-page/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/EscapeTheLabyrinth-Logo.png": "/Escape-The-Labyrinth-page/static/media/EscapeTheLabyrinth-Logo.d971ae35da9fe850016c.png",
+    "static/media/fa-solid-900.woff2": "/Escape-The-Labyrinth-page/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/Escape-The-Labyrinth-page/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/Escape-The-Labyrinth-page/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/Escape-The-Labyrinth-page/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Escape-The-Labyrinth-page/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Escape-The-Labyrinth-page/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/Escape-The-Labyrinth-page/index.html",
+    "main.0dc39ec1.css.map": "/Escape-The-Labyrinth-page/static/css/main.0dc39ec1.css.map",
+    "main.bdf0929b.js.map": "/Escape-The-Labyrinth-page/static/js/main.bdf0929b.js.map",
+    "488.3e7a3f14.chunk.js.map": "/Escape-The-Labyrinth-page/static/js/488.3e7a3f14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dc39ec1.css",
+    "static/js/main.bdf0929b.js"
+  ]
+}
