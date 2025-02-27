@@ -36,7 +36,7 @@ function APropos() {
                     <iframe
                         width="800"
                         height="450"
-                        src="https://www.youtube.com/embed/TON_LIEN_DE_TRAILER"
+                        src="https://youtu.be/j0uZMW7nxyA"
                         title="Escape The Labyrinth - Trailer"
                         allowFullScreen
                     ></iframe>

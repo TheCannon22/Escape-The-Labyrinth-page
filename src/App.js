@@ -59,14 +59,12 @@ function App() {
                     <p>Je vous invite à plonger dans cet univers...</p>
                     <h2>Caractéristiques du Jeu</h2>
                     <h2>Comment Jouer</h2>
-                    <p>Utilisez les touches fléchées pour vous déplacer dans le labyrinthe. Évitez les obstacles et trouvez la sortie pour gagner !</p>
-                    <h2>Contact</h2>
-                    <p>Pour toute question ou suggestion, veuillez nous contacter à <a href="mailto:support@escapethelabyrinth.com">support@escapethelabyrinth.com</a>.</p>
+                    <p>Utilisez les touches fléchées pour vous déplacer dans le labyrinthe, la barre d'espacement pour sauter et le bouton "Esc" pour ouvrir le menu de pause. Évitez les obstacles et trouvez la sortie pour gagner !</p>
                     <h2>FAQ</h2>
                     <p><strong>Q: Combien de niveaux y a-t-il dans le jeu ?</strong></p>
-                    <p>R: Le jeu comporte actuellement 10 niveaux, chacun avec une difficulté croissante.</p>
+                    <p>R: Le jeu comporte actuellement 1 niveaux, le labyrinthe au complet.</p>
                     <p><strong>Q: Puis-je jouer au jeu sur mon téléphone ?</strong></p>
-                    <p>R: Oui, le jeu est compatible avec les appareils mobiles et les tablettes.</p>
+                    <p>R: Non, le jeu est seulement compatible sur PC.</p>
                     <p><strong>Q: Y a-t-il des achats intégrés dans le jeu ?</strong></p>
                     <p>R: Non, le jeu est entièrement gratuit sans achats intégrés.</p>
                   </motion.div>
