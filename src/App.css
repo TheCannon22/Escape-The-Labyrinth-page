@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-Logo {
+  height: 150px;
+  margin-right: 20px;
+}
+
+header .App-Logo {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4e2a6e;
+  min-height: 270vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.banniere {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-bottom: 4px solid white;
+}
+
+.header-content {
+  color: white;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.header-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.header-info {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #fff;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+  .App-Logo {
+    height: 200px;
+  }
+
+  .header-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-content p {
+    font-size: 1.2rem;
+  }
+
+  .header-info {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+
+  .App-header {
+    min-height: 250vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .App-Logo {
+    height: 250px;
+  }
+
+  .App-header {
+    padding: 40px;
+  }
+
+  .header-content h1 {
+    font-size: 3rem;
+  }
+
+  .header-info {
+    font-size: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,112 @@
+.Jouer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color: #333;
+}
+
+.Jouer .contenu {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+.Jouer h1 {
+    font-size: 2rem;
+    color: #4e2a6e;
+    margin-bottom: 10px;
+}
+
+.Jouer .sous-titre {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.options-jeu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.options-jeu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.bouton-telechargement {
+    background-color: #4e2a6e;
+}
+
+.bouton-jouer {
+    background-color: #2a6e4e;
+}
+
+.bouton-telechargement:hover {
+    background-color: #3c2157;
+}
+
+.bouton-jouer:hover {
+    background-color: #21573c;
+}
+
+.configuration {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.configuration h2 {
+    font-size: 1.6rem;
+    color: #4e2a6e;
+    margin-bottom: 10px;
+}
+
+.configuration ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.configuration li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 600px) {
+    .Jouer h1 {
+        font-size: 2.2rem;
+    }
+    .Jouer .sous-titre {
+        font-size: 1.3rem;
+    }
+    .options-jeu {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .options-jeu a {
+        width: 200px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Jouer {
+        padding: 40px;
+    }
+    .Jouer h1 {
+        font-size: 2.4rem;
+    }
+    .Jouer .sous-titre {
+        font-size: 1.4rem;
+    }
+    .configuration {
+        padding: 20px;
+    }
+}

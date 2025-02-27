@@ -1,0 +1,225 @@
+/* Mobile-first design */
+.APropos {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    min-height: 220vh;
+    color: #333;
+}
+
+.APropos .contenu {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+.APropos h1 {
+    font-size: 1.8rem;
+    color: #4e2a6e;
+    margin-bottom: 10px;
+}
+
+.APropos p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.APropos .details {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.APropos .details h2 {
+    font-size: 1.6rem;
+    color: #4e2a6e;
+    margin-bottom: 10px;
+}
+
+.APropos .details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.APropos .details li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Trailer */
+.trailer-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.trailer-container iframe {
+    width: 100%;
+    height: 45vw; /* Responsive height */
+    max-height: 450px;
+}
+
+/* Nouvelle section pour l'équipe */
+.equipe {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.equipe h2 {
+    font-size: 1.6rem;
+    color: #4e2a6e;
+    margin-bottom: 15px;
+}
+
+.equipe .membre {
+    margin-bottom: 20px;
+}
+
+.equipe .membre h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.equipe .membre p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.equipe .membre a {
+    color: #4e2a6e;
+    text-decoration: none;
+}
+
+.equipe .membre a:hover {
+    text-decoration: underline;
+}
+
+/* Galerie d'images */
+.galerie {
+    margin-top: 30px;
+}
+
+.galerie h2 {
+    font-size: 1.6rem;
+    color: #4e2a6e;
+    margin-bottom: 15px;
+}
+
+.galerie .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.galerie .images img {
+    max-width: 100%;
+    height: auto;
+    width: 200px; /* Image size adjusted */
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards, slideUp 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 600px) {
+    .APropos h1 {
+        font-size: 2rem;
+    }
+
+    .APropos p {
+        font-size: 1.2rem;
+    }
+
+    .APropos .details h2 {
+        font-size: 1.8rem;
+    }
+
+    .APropos {
+        min-height: 180vh;
+    }
+
+    .equipe h2 {
+        font-size: 1.8rem;
+    }
+
+    .equipe .membre h3 {
+        font-size: 1.6rem;
+    }
+
+    .equipe .membre p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Desktop view */
+@media (min-width: 1024px) {
+    .APropos {
+        padding: 40px;
+    }
+
+    .APropos h1 {
+        font-size: 2.4rem;
+    }
+
+    .APropos p {
+        font-size: 1.3rem;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .APropos .details {
+        padding: 20px;
+    }
+
+    .equipe h2 {
+        font-size: 2rem;
+    }
+
+    .equipe .membre h3 {
+        font-size: 1.8rem;
+    }
+
+    .galerie .images img {
+        width: 250px; /* Larger images for desktop */
+    }
+}
